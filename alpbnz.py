@@ -57,7 +57,7 @@ def frekansYuzdelik(metin):
 def kelimeFrekans(metin):
     kelimeler=metin.split(' ')
     kelimeSayi=len(kelimeler)
-    print(len(kelimeler),len(metin))
+   
     harfSayi=len(metin)
     print((kelimeSayi/harfSayi)*100)
 
